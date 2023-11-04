@@ -3,12 +3,12 @@
 	
 	<GlobalSolutionName>ThirdParty</GlobalSolutionName>
 	<GlobalNamespace>potato</GlobalNamespace>
-	<GlobalIncludePath>lib</GlobalIncludePath>
 
 	<StaticLibrary>
 		<Name>thirdparty_lz4</Name>
 		<SourceRoot>lib</SourceRoot>
 		<ThirdParty>true</ThirdParty>
+		<ExportedIncludeDirectory>lib</ExportedIncludeDirectory>
 		<ThirdPartySourceFile>lz4.c;lz4file.c;lz4frame.c;lz4hc.c;xxhash.c</ThirdPartySourceFile>
 	</StaticLibrary>
 
