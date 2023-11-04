@@ -49,3 +49,5 @@ tmp*
 # generated Windows resource files
 lib/*.rc
 programs/*.rc
+
+.temp
